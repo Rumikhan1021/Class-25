@@ -1,0 +1,252 @@
+
+.pricing-section{
+    background: #f2f4f7;
+}
+
+
+.pricing-header-part{}
+.pricing-header-part h6{
+    color: #0d6efd;
+}
+.pricing-header-part h1{
+    color: #212529;
+    font-weight: 600;
+    position: relative;
+}
+
+.pricing-header-part h1::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #0d6efd;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.pricing-header-part p{
+    color: #a6a1a6;
+}
+
+.pricing-table-container{
+    background-color: #fff;
+    transition: .4s;
+}
+
+ .pricing-table-container:hover{
+     background-color: #0d6efd;
+     color: #fff;
+ } 
+
+.pricing-table-header h5{
+    margin-bottom: 30px;
+}
+
+.pricing-table-header h1{
+    font-weight: 600;
+    position: relative;
+}
+
+.pricing-table-header h1::before {
+    content: "";
+    width: 178px;
+    height: 1px;
+    background: #a6a1a6;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+
+.pricing-table-body ul{ 
+    list-style: none;
+    margin-top: 60px;
+}
+.pricing-table-body ul li{
+    display: block;
+    line-height: 40px;
+ }
+
+
+
+ .pricing-table-footer .common-button{
+    text-decoration: none;
+    background-color: #0d6efd;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    transition: .4s;
+    z-index: 1;
+ }
+
+ 
+ .pricing-table-footer .common-button::before{
+     content: "";
+     width: 0;
+     height: 100%;
+     background-color: #0d6efd;
+     border-radius: 25px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     transition: .5s;
+ }
+
+ .pricing-table-footer .common-button:hover::before{
+     width: 100%;
+     
+ }
+
+ .pricing-table-container:hover .common-button{
+     background-color: #fff;
+     color: #0d6efd;
+}
+
+.pricing-table-container .common-button:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+ 
+
+.lfwf-section{
+    background-image: url(../img/free-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+}
+
+.lfwf-content h1{
+    font-weight: 600;
+    font-size: 48px;
+    position: relative;
+}
+
+.lfwf-section::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 110, 253, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.lfwf-content a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #0d6efd;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+}
+
+.lfwf-content a::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #0d6efd;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.lfwf-content a:hover::before{
+    width: 100%;
+}
+
+.lfwf-content a:hover{
+    color: #fff;
+    
+}
+.lfwf-content h1::before{
+    content: "";
+    width: 63px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.news-section{
+    padding: 40px;
+    background: #f2f4f7;
+}
+
+
+.news-left-side{
+    background-color: #0d6efd;
+    padding: 30px;
+}
+
+.news-left-side h3{
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.news-left-side p{
+    color: #fff;
+
+}
+
+.news-left-side a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0d6efd;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px ;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.news-left-side .input-area input{
+    padding: 8px ;
+    border-radius: 25px ;
+}
+
+.news-right-side{
+    margin-right: 100px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, .2);
+}
+
+
+.news-right-side a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 50px;
+}
